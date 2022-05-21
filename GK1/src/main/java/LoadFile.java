@@ -11,7 +11,7 @@ public abstract class LoadFile {
         try {
             Line.points = new ArrayList<>();
             Line.lines = new ArrayList<>();
-            BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\skok2\\Desktop\\GK1\\src\\main\\java\\dane2.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src/main/java/dane2.txt"));
             String line = reader.readLine();
             while(line != null){
                 String dane[] = line.split(" ");
